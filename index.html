@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta name="theme-color" content="#4a90e2">
+<meta name="description" content="An Overview - Jesse Chukwuemeka" />
+<meta name="author" content="Jesse Chukwuemeka" />
+<meta name="msapplication-TileColor" content="#4a90e2">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Jesse">
+
+<meta property="og:title" content="About Me - Jesse Chukwuemeka" />
+<meta property="og:description" content="An Overview - Jesse Chukwuemeka" />
+<meta property="og:image" content="images/tooned_jesse.webp" />
+<meta property="og:url" content="https://yourdomain.com/about" />
+<meta property="og:type" content="website" />
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About Me - Jesse Chukwuemeka">
+<meta name="twitter:description" content="An Overview - Jesse Chukwuemeka">
+<meta name="twitter:image" content="images/tooned_jesse.webp">
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+
+<script src="https://kit.fontawesome.com/cd6d81b746.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./styles.css" />
+<title>An Overview - Jesse Chukwuemeka</title>
+</head>
+
+<body class="dark-theme">
+<header>
+<section id="home">
+<div class="image-container">
+<div class="overlay"></div>
+<img src="images/tooned_jesse.webp" alt="Cartoon portrait of Jesse Chukwuemeka" />
+<button class="icon-btns" id="theme-btn" aria-label="Switch theme">
+<i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true"></i>
+</button>
+<div class="text">
+<h1>Meet Me!</h1>
+<h2>What Brings You Here?</h2>
+<button class="icon-btns" id="nav-btn" aria-label="Menu navigation icon">
+<i id="nav-btn-icon"class="fa-solid fa-grip-lines" aria-hidden="true"></i>
+</button>
+<nav id="navigation" class="hidden" aria-label="Navigation links">
+<ul>
+<li tabindex="0" id="dev-page-link" class="nav-link">Developer's Page</li>
+<li tabindex="0" id="about-page-link" class="nav-link">About Page</li>
+<li tabindex="0" id="contact-page-link" class="nav-link">Contact Page</li>
+</ul>
+</nav>
+</div>
+</div>
+</section>
+</header>
+
+<div id="sticky-nav" class="hidden" aria-label="Floating Navigation panel">
+<button class="text-btns" id="showing-page"></button>
+<button class="icon-btns"  id="cancel-btn" id aria-label="Cancel Button">
+<i class="fa-solid fa-xmark"></i>
+</button>
+</div>
+
+<main>
+<section id="developer-page" class="highlights hidden">
+<h2>My Job as a <strong>Software Developer</strong></h2>
+<nav aria-label="Contents">
+<ul>
+<li><a href="#specializations">Specializations</a></li><br>
+<li><a href="#schedule">Work Pattern &amp; Active Times</a></li><br>
+<li><a href="#support">Support &amp; Inquiries</a></li><br>
+</ul>
+</nav>
+
+<section id="specializations">
+<h3>Specializations</h3>
+<ul>
+<li>
+<strong>Responsive &amp; Interactive Landing Pages:</strong><br>
+Bringing your Figma sketch to life – mobile-first, lightning-fast, and ready to capture leads all based on your demands.
+</li>
+<li>
+<strong>CSS Debugging &amp; Responsiveness Fixes:</strong><br>
+Your layouts might just lack that professional web look. That's why I'm here – To bring organization to your display. No more "it looks weird on phone" complaints.
+</li>
+<li>
+<strong>PHP for Backend Operations:</strong><br>
+You've got forms or input stuffs? Do you need to work with databases? It's just a message away
+</li>
+<li>
+<strong>Progressive Web Applications(PWAs):</strong><br>
+A core focus on making web applications that work like native apps and can be installed with huge offline functionality
+</li>
+<li>
+<strong>Note:</strong> I love solving problems. I would have preferred displaying a <strong>Web Engineer</strong> as a Skill because that's what gives more experience. By seeing how different people solve problems, i'll definitely learn a thing or two which helps build my skill set. In addition, the more problems i solve, the faster i'll be at solving new ones
+</li>
+</ul>
+</section>
+
+<section id="schedule">
+<h3>Work Pattern &amp; Active Times</h3>
+<ul>
+<li><strong>Work Pattern/Pattern of Work</strong><br>
+Currently, my priorities are quick tasks which most likely are about solving problems or building small stuffs - Thats not all<br>
+Secondly, i'm open to temporal jobs with maximum length of 7 Weekdays. I'll only take 1 per week - This is not a priority but it is present.<br>
+Finally, if you need a long-term developer<strong>(for your buisness or various reasons)</strong>, I am optionally open, feel free to contact me - The discussion will decide.
+</li>
+<li><strong>Active Times</strong><br>
+Here is a timezone converter that shows you my active time rangs in your local time. Click below to use it
+<details>
+<summary>Time Translator</summary>
+<label for="time-trans">Select your date and time</label>
+<input type="datetime-local" id="time-trans" placeholder="Select Date and Time" />
+<button class="text-btns" id="trans-submit-btn" value="submit">Translate</button>
+<p id="trans-display"></p>
+</details>
+</li>
+</ul>
+</section>
+
+<section id="support">
+<h3>Support &amp; Inquiries</h3>
+<ul>
+<li><strong>If you've got any questions</strong> to ask me or you need more information about me you couldn't get from here, you might get it at the about page - <a id="about-btn" class="text-btns">About</a></li>
+<li><strong>To speak with me/reach out to me,</strong>The contact section has contact information - <a id="contact-btn" class="text-btns">Contact</a></li>
+</ul>
+</section>
+</section>
+
+<section id="about-page" class="highlights hidden">
+<h2>About Me</h2>
+<div class="toggle-container">
+<span id="ai-about-btn">Ai Generated About(Grok)</span><span id="real-about-btn">Self-Written About</span>
+</div>
+ <h3>Hi</h3>
+<section class="hidden" id="real-about">
+ 
+<p>
+My Name is Jesse Chukwuemeka.. A few extras to note about me
+</p>
+
+<ul>
+  <h3>Interests:</h3>
+<li><br>
+<strong>I Love Tech</strong> - especially smart tech - Most especially Smart Phones - very importantly, <strong>Android Smart Phones</strong>
+</li>
+<li>I'm also interested in photography, it will soon be an active interest. Having a mobile telephoto camera to capture the moment</li>
+<li>I'm a music person - So i pick audiophile sound devices against random ones</li>
+</ul>
+<p>
+These are my interests currently, more to come
+</p>
+<h3>Current activity</h3>
+<p>
+I'm currently into full-time web development for a period of time before adding full <strong>Software Development</strong>...
+</p>
+<h3>Background</h3>
+<p>
+I am from and live at a small known corner of Earth. My general location is Earth. <br>
+You want to know how old i am? What if i tell you 14? <br> Just kidding! If you're interested, contact me
+</p>
+
+<h3>Highlights</h3>
+<p>
+Coming Soon...
+</p>
+
+
+<p>
+This page will be updated regularly
+Don't forget to connect with me on X - It will be a blessing - Nice meeting you, Thank you, Have a nice moment
+</p>
+</section>
+<section id="ai-about" class="">
+<p>
+I'm Jesse Chukwuemeka, a dedicated <strong>Tech Reviewer</strong> and <strong>Software Developer</strong> based on Earth (because why limit myself to one spot?). I joined X in February 2025, and since then, I've been diving deep into the world of technology, sharing my thoughts, reviews, and a bit of humor along the way. With over 1,500 posts (and counting), I love engaging with the latest trends, from AI breakthroughs to gadget innovations with more new interests to come.
+</p>
+
+<h3>My Background</h3>
+<p>
+As a software developer, I'm passionate about building and experimenting with code. I've shared laughs over recursion stacks (pun intended) and expressed interest in hackathons like xAI's events—especially if they're open to remote devs! My tech reviews focus on real-world usability, whether it's debating the merits of ThinkPads vs. MacBooks or testing earbuds for audiophiles on a budget or not.
+</p>
+
+<h3>What I Do</h3>
+<ul>
+<li><strong>Tech Reviews</strong>: I break down smartphones, wearables, AI tools, and more. From Samsung Galaxy Watches to Apple's latest quirks (like that $230 iPhone sock—seriously?), I aim for unbiased, fun insights. Check out my takes on Xiaomi devices or the Sony WF-1000XM series.</li>
+<li><strong>Software Development</strong>: I geek out over coding challenges, API integrations, and emerging tech like Grok models. I'm always up for discussing stack overflows or why engineers deserve more credit (shoutout to those who raised the Costa Concordia!).</li>
+<li><strong>Community Engagement</strong>: I follow and interact with tech giants like MKBHD, xai, and <a href="https://x.com/xiaomi">Xiaomi</a>. Whether it's hyping SpaceX's Cellular Starlink on Apple Watches or joking about cats deleting the world, I keep things light-hearted.</li>
+</ul>
+
+<h3>Interests &amp; Passions</h3>
+<ul>
+<li><strong>AI &amp; Innovation</strong>: Excited about Tech upgrades, xAI hackathons, and a little bit on the AI race.</li>
+<li><strong>Gadgets &amp; Hardware</strong>: Smartphones, watches, earbuds—anything from budget finds to premium tech.</li>
+<li><strong>Space &amp; Future Tech</strong>: Fan of Starlink, Worldwide launches[missions to mars], and mind-blowing discoveries.</li>
+<li><strong>Humor &amp; Memes</strong>: Life's too short not to laugh at bridge collapses, mosquito extinctions, or MKBHD tagging Lebron James as <em>smaller creators</em>..</li>
+<a href="https://x.com/JesseCemeka/status/1988628475331199396?t=u0WnYW_0AQvhul-eaf0B3g&s=19"><img class="images" src="images/mkbhd_lebron.png" /></a>
+<li><strong>Growth Mindset</strong>: Upgrading myself, learning from challenges, and pushing for better experiences in dev work.</li>
+</ul>
+
+<h3>Fun Facts</h3>
+<ul>
+<li>I once pondered if online data is really in the "cloud" as the biggest threat to humanity (spoiler: it's not, but it's funny).</li>
+<li>Videos over text any day—check my YouTube recommendations <strong>on 𝕏</strong>for Ben 10-inspired watch faces or laser cleaning demos and many more.</li>
+<li>I'm all about positive vibes: "We grow by challenges" is my thought on this matter</li>
+</ul>
+
+<p>
+If you're into tech, development, just good conversations or you want to stay connected, Check out my only Social Profile below this section. Message me directly, mention or drop a reply. Let's connect and geek out!
+</p>
+
+<p>
+<br><br>
+<em>Last updated: November 13, 2025</em>
+</p>
+</section>
+<br><br>
+<div id="x-embed">
+<a class="twitter-follow-button" href="https://twitter.com/JesseCemeka?ref_src=twsrc%5Etfw" data-show-count="false">Follow @JesseCemeka</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</section>
+
+<section id="contact-page" class="highlights hidden">
+<h2>Contact Information</h2>
+<div class="contact-box">
+<h3>Send me an Email</h3>
+<p>
+Max response time(Weekdays only): 1 Hour
+</p>
+<button class="link-btns" id="email-btn"><i class="fa-regular fa-envelope"></i></button>
+</div>
+<div class="contact-box">
+<h3>Message me on 𝕏</h3>
+<p>
+Max response time(Weekdays only): 1 Hour
+</p>
+<button class="link-btns" id="x-btn"><i class="fa-brands fa-x-twitter"></i></button>
+</div>
+</section>
+</main>
+<footer class="hidden">
+&copy; 2025 Jesse Chukwuemeka. All rights reserved.
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
